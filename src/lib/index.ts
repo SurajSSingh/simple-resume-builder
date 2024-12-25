@@ -2,4 +2,4 @@
 
 import test from "./private.json" with { type: "json" };
 
-export let testData = test;
+export const testData = test;
