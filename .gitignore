@@ -24,3 +24,5 @@ vite.config.ts.timestamp-*
 
 # Private data
 private/*
+*private.json
+private*.json
