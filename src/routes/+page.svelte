@@ -1,9 +1,8 @@
 <script lang="ts">
-  // TODO: Convert "../lib" to "$lib", but make sure it is type-checked
-  import { testData } from "../lib";
-  import Experience from "../lib/Experience.svelte";
-  import Headline from "../lib/Headline.svelte";
-  import Skills from "../lib/Skills.svelte";
+  import { testData } from "$lib";
+  import Experience from "$lib/Experience.svelte";
+  import Headline from "$lib/Headline.svelte";
+  import Skills from "$lib/Skills.svelte";
 </script>
 
 <Headline
