@@ -6,5 +6,7 @@ import staticData from "../private/static.json";
 import skillsData from "../private/dyanmic/skills.json";
 import expData from "../private/dyanmic/experience.json";
 
+export type EducationType = typeof staticData.education;
+
 export const testData = test;
 export const userData = { ...staticData, ...skillsData, experiennces: expData };
