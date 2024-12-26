@@ -8,6 +8,7 @@ export default defineConfig({
 			$lib: "/src/lib",
 			$components: "/src/components",
 			$utils: "/src/utils",
+			$private: "/src/private",
 		},
 	},
 });
