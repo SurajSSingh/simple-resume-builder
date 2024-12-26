@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { testData } from "$lib";
-  import Experience from "$lib/Experience.svelte";
-  import Headline from "$lib/Headline.svelte";
-  import Skills from "$lib/Skills.svelte";
+  import { testData, userData } from "$lib";
+  import Experience from "../components/Experience.svelte";
+  import Headline from "../components/Headline.svelte";
+  import Skills from "../components/Skills.svelte";
 </script>
 
 <Headline
