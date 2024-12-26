@@ -39,3 +39,44 @@
   />
 </main>
 <footer></footer>
+
+<style global>
+  /* Define Page Properties */
+  @page {
+    size: letter portrait;
+  }
+
+  /* Define Variables */
+  :root {
+    --h1-font-size: 22px;
+    --h2-font-size: 18px;
+    --h3-font-size: 16px;
+    --subheading-font-size: 15px;
+    --body-font-size: 14px;
+  }
+
+  * {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+  }
+
+  p,
+  li {
+    font-size: var(--body-font-size, 12px);
+  }
+
+  hr {
+    margin: 0.5em 0em;
+  }
+
+  main {
+    margin: 0.5in 0.5in;
+  }
+
+  @media print {
+    header,
+    footer {
+      display: none;
+    }
+  }
+</style>
