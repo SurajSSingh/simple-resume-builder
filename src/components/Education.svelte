@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { EducationType } from "$lib";
-  const education: EducationType = $props();
+  const { education }: { education: EducationType } = $props();
 </script>
 
 <section id="education">
